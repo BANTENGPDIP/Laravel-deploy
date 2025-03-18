@@ -1,0 +1,10 @@
+applications:
+  - name: my-laravel-app
+    environment: production
+    php_version: 8.3
+    composer: true
+    deploy:
+      - php artisan migrate --force
+      - php artisan config:cache
+      - php artisan route:cache
+      - php artisan view:cache
