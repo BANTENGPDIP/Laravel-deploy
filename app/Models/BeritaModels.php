@@ -9,4 +9,8 @@ class BeritaModels extends Model
 {
     use HasFactory;
     protected $table = 'berita'; 
+
+    protected $casts = [
+        'id_kategori' => 'integer',
+    ];
 }
