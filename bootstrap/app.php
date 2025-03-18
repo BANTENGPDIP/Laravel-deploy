@@ -1,5 +1,8 @@
 <?php
 
+// Tambahkan baris ini untuk memastikan autoload dimuat
+require_once __DIR__.'/../vendor/autoload.php';
+
 /*
 |--------------------------------------------------------------------------
 | Create The Application

@@ -1,5 +1,5 @@
 applications:
-  - name: my-laravel-app
+  - name: ProjectAzzra
     environment: production
     php_version: 8.3
     composer: true
